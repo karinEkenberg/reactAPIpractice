@@ -1,10 +1,12 @@
+#API react ts
+
+![api](https://github.com/user-attachments/assets/75ca7b54-4954-4917-8ba1-a790603cd184)
+
 ```markdown
 # My React API Project
 
 This is a simple React project that fetches data from an API and displays it on the screen.
 The project demonstrates how to use `useEffect` and `useState` hooks to fetch and manage API data in a React application.
-
-![api](https://github.com/user-attachments/assets/9e8b73ba-65b6-4a5f-a2bf-a52d309cc323)
 
 ## Features
 - Fetches data from a public API (JSONPlaceholder)
@@ -45,5 +47,3 @@ This project was inspired by the following tutorial:
 
 [4 - React Typescript Crash Course - Calling API & Fetching Data](https://www.youtube.com/watch?v=zR5FoKMAJp4 ))  
 Thank you to the Yaser Az for the valuable resources and guidance!
-
-```
