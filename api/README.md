@@ -25,7 +25,7 @@ To get started with this project, follow these steps:
 
 2. Navigate to the project folder:
    ```bash
-   cd your-repo-name
+   cd api
    ```
 
 3. Install dependencies:
