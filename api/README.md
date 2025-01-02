@@ -1,50 +1,49 @@
-# React + TypeScript + Vite
+```markdown
+# My React API Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project that fetches data from an API and displays it on the screen.
+The project demonstrates how to use `useEffect` and `useState` hooks to fetch and manage API data in a React application.
 
-Currently, two official plugins are available:
+![api](https://github.com/user-attachments/assets/9e8b73ba-65b6-4a5f-a2bf-a52d309cc323)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Fetches data from a public API (JSONPlaceholder)
+- Displays a list of TODO items from the API
+- Error handling for API requests
+- Loading state to display while data is being fetched
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To get started with this project, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+2. Navigate to the project folder:
+   ```bash
+   cd your-repo-name
+   ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+5. Open your browser and visit `http://localhost:3000`.
+
+## Tutorial Credit
+
+This project was inspired by the following tutorial:
+
+
+[4 - React Typescript Crash Course - Calling API & Fetching Data](https://www.youtube.com/watch?v=zR5FoKMAJp4 ))  
+Thank you to the Yaser Az for the valuable resources and guidance!
+
 ```
