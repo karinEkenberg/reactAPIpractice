@@ -27,7 +27,16 @@ export default function Api() {
           {todos.length > 0 ? (
             <ul>
               {todos.map((todo: Todo) => (
-                <li key={todo.id}>{todo.title}</li>
+                <li key={todo.id}>
+                  {todo.title} {/* Visa status för completed */}
+                  <span
+                    style={{
+                      color: todo.completed ? "green" : "red",
+                    }}
+                  >
+                    {todo.completed ? "Completed" : "Not Completed"}
+                  </span>
+                </li>
               ))}
             </ul>
           ) : (
